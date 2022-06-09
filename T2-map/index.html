@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Guide</title>
+    <link rel="stylesheet" href="res/styles.css">
+</head>
+<body>
+    <div>
+        <P>Choose any country:</P>
+        <select onchange="window.open(this.options[this.selectedIndex].value,'_blank');">
+            <option></option>
+            <option value="ind/india.html">India</option>
+            <option value="mada/madagascar.html">Madagascar</option>
+            <option value="ny/newyork.html">New York</option>
+        </select>
+    </div>
+    <div id="popup-overlay"></div>
+</body>
+</html>

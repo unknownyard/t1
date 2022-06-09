@@ -1,0 +1,31 @@
+body{
+    background-image: url("bg.jpeg");
+}
+
+.content {
+    padding-left: 2px;
+    border: none;
+    overflow: scroll;
+    height:520px;
+    width:70%;
+    background-color: rgba(255, 255,255, 0.7);
+    border-radius: 10px;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+::-webkit-scrollbar-thumb {
+background: white;  
+border-radius: 10px;
+}
+
+.content .q .a{
+background-image: url(question.png);
+}
+
+#question{
+    width: 2%;
+}

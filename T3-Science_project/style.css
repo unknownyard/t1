@@ -1,0 +1,74 @@
+body{
+    background-size:cover;
+        background: linear-gradient(-45deg, #d9a7c7, #eca9d4, #e7e2b4, #fffcdc);
+        background-size: 400% 400%;
+        animation: gradient 9s ease infinite;
+        height: 100vh;
+    }
+    
+@keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: .1fr 1fr .2fr 1fr;   
+}
+.header img{
+    width: 100%;
+    padding-top: 14px;
+}
+.header .list{
+    
+    padding-top: 30px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.header .list a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .list a:hover{
+    font-size: 120%;
+    text-decoration: underline;
+    color: red;
+}
+
+
+marquee{
+    font-size: 20px;
+    color:orangered;
+}
+h1{
+    color:red;
+}
+.details{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    
+}
+
+h2{
+    color: yellow;
+    font-size: 50px;
+}
+.about{
+    font-size: 20px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

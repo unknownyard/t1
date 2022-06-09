@@ -1,0 +1,7 @@
+input[type="button"] {
+    background-color: black;
+    color: white;
+    margin:12px 50px;
+    border-radius: 2px;
+    padding:5px;
+}

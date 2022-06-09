@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    border: dotted 4px orange;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;    
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.one{
+    color: white;
+    background-color: rgba(13, 1, 1, 0.062);
+    border: dashed 4px green;
+}
+.one center{
+    background-color: whitesmoke;
+    color: black;
+    border: double 5px red;
+}
+.two{
+    color: black;
+    background: url('download.jpg');
+    border: double 4px yellow;
+}
+
+.three{
+    border: ridge 2px olive;
+    background-color: bisque;
+}
+.four{
+    border: solid 2px white;
+}
+.four center{
+    background-color: whitesmoke;
+    color: black;
+    border: inset 5px orangered;
+}
+.five{
+    border: solid 2px orange;
+}
+.six{
+    border: outset 2px goldenrod;
+}
+.seven{
+    border-style: dashed double dotted inset;
+    border-color: aqua;
+    color: azure;
+}

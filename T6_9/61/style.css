@@ -1,0 +1,9 @@
+.name{
+    margin:200px 500px;
+}
+input[type="button"] {
+    border: 0ch;
+    background-color: red;
+    margin:12px 50px;
+    padding:5px;
+}
